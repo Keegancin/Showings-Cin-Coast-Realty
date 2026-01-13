@@ -106,8 +106,8 @@ npm run dev
 The app comes with pre-configured demo accounts:
 
 **Team Lead:**
-- Email: `lead@cincoast.com`
-- Password: `lead123`
+- Email: `Keegan@CinCoastRealty.com`
+- Password: `6262`
 
 **Agent:**
 - Email: `agent@cincoast.com`

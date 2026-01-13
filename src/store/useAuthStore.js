@@ -5,10 +5,10 @@ import { persist } from 'zustand/middleware';
 const MOCK_USERS = [
   {
     id: '1',
-    email: 'lead@cincoast.com',
-    password: 'lead123',
+    email: 'Keegan@CinCoastRealty.com',
+    password: '6262',
     role: 'team_lead',
-    name: 'Jennifer Martinez',
+    name: 'Keegan',
     title: 'Team Lead & Luxury Specialist',
     phone: '(555) 123-4567',
     bio: 'With over 15 years of experience in luxury real estate, I specialize in helping families find their perfect home.',
