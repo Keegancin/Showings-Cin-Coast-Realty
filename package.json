@@ -20,7 +20,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "zustand": "^4.5.0",
     "date-fns": "^3.3.1",
-    "lucide-react": "^0.index343.0",
+    "lucide-react": "^0.343.0",
     "clsx": "^2.1.0"
   },
   "devDependencies": {
