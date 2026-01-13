@@ -99,7 +99,7 @@ npm install
 npm run dev
 ```
 
-4. Open your browser to `http://localhost:3000`
+4. Open your browser to `http://localhost:5173`
 
 ### Demo Accounts
 
