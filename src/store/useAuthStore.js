@@ -50,7 +50,7 @@ const useAuthStore = create(
 
       login: (email, password) => {
         const user = get().users.find(
-          u => u.email === email && u.password === password
+          u => u.email.toLowerCase() === email.toLowerCase() && u.password === password
         );
 
         if (user) {

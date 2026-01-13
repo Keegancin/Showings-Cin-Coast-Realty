@@ -103,7 +103,7 @@ const Login = () => {
             <div className="space-y-2 text-xs text-brand-text-light">
               <div className="bg-brand-dark rounded p-2">
                 <p className="text-brand-gold mb-1">Team Lead:</p>
-                <p>lead@cincoast.com / lead123</p>
+                <p>Keegan@CinCoastRealty.com / 6262</p>
               </div>
               <div className="bg-brand-dark rounded p-2">
                 <p className="text-brand-gold mb-1">Agent:</p>
