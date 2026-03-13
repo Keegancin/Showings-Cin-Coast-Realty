@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
-import { Home, Users, Calendar, Building2, User, LogOut, MessageSquare } from 'lucide-react';
+import { Home, Users, Calendar, Building2, User, LogOut, UserPlus } from 'lucide-react';
 import useAuthStore from '../store/useAuthStore';
 import MobileLayout from '../components/MobileLayout';
 import BottomNav from '../components/BottomNav';
@@ -9,7 +9,6 @@ import BottomNav from '../components/BottomNav';
 import TeamLeadHome from '../components/teamlead/TeamLeadHome';
 import TeamLeadTeam from '../components/teamlead/TeamLeadTeam';
 import CreateAgent from '../components/teamlead/CreateAgent';
-import RedditLeadMonitor from '../components/teamlead/RedditLeadMonitor';
 
 // Reuse Agent components
 import AgentClients from '../components/agent/AgentClients';
@@ -33,7 +32,6 @@ const TeamLeadDashboard = () => {
     { id: 'team', label: 'Team', icon: Users },
     { id: 'schedules', label: 'Schedules', icon: Calendar },
     { id: 'properties', label: 'Properties', icon: Building2 },
-    { id: 'reddit-leads', label: 'Leads', icon: MessageSquare },
     { id: 'profile', label: 'Profile', icon: User }
   ];
 
@@ -86,7 +84,6 @@ const TeamLeadDashboard = () => {
         <Route path="properties" element={<AgentProperties />} />
         <Route path="properties/new" element={<CreateProperty />} />
         <Route path="profile" element={<AgentProfile />} />
-        <Route path="reddit-leads" element={<RedditLeadMonitor />} />
       </Routes>
     </MobileLayout>
   );
