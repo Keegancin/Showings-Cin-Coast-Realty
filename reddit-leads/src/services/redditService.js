@@ -5,15 +5,15 @@
 export const DEFAULT_SUBREDDITS = [
   'RealEstate',
   'FirstTimeHomeBuyer',
-  'personalfinance',
   'homebuying',
-  'cincinnati',
-  'Cleveland',
-  'Columbus',
-  'Dayton',
-  'Louisville',
-  'lexington',
-  'Indianapolis',
+  'personalfinance',
+  'LosAngeles',
+  'orangecounty',
+  'AskLosAngeles',
+  'irvine',
+  'longbeach',
+  'SantaMonica',
+  'CaliforniaHomes',
   'realestateinvesting',
 ];
 

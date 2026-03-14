@@ -46,7 +46,7 @@ export async function generateDraft(post, teamInfo, cities = [], onChunk) {
   const serviceArea =
     cities.length > 0
       ? cities.join(', ')
-      : 'Cincinnati, Dayton, Columbus, Northern Kentucky, Louisville corridor';
+      : 'Los Angeles, Orange County, Irvine, Long Beach, Newport Beach, Huntington Beach, Pasadena';
 
   const prompt = `Write a Reddit reply draft for this post.
 

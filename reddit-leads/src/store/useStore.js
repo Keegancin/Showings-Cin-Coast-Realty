@@ -27,13 +27,18 @@ const useStore = create(
 
       // ── Settings ───────────────────────────────────────────────────────
       settings: {
-        cities: ['Cincinnati', 'Dayton', 'Columbus', 'Northern Kentucky', 'Louisville'],
+        cities: [
+          'Los Angeles', 'Orange County', 'Irvine', 'Anaheim', 'Santa Ana',
+          'Long Beach', 'Huntington Beach', 'Newport Beach', 'Fullerton',
+          'Costa Mesa', 'Pasadena', 'Burbank', 'Glendale', 'Santa Monica',
+          'Torrance', 'Garden Grove', 'Mission Viejo', 'Laguna Beach',
+        ],
         keywords: DEFAULT_KEYWORDS,
         subreddits: DEFAULT_SUBREDDITS,
         timeFilter: 'month',
         teamName: 'Keegan',
         teamTitle: 'Team Lead & Luxury Specialist',
-        teamBio: 'With over 15 years of experience in luxury real estate, specializing in helping families find their perfect home in the Cincinnati region.',
+        teamBio: 'With over 15 years of experience in luxury real estate, specializing in helping buyers and sellers across Los Angeles and Orange County.',
       },
 
       // ── Actions ────────────────────────────────────────────────────────
